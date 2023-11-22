@@ -8,7 +8,7 @@ const ScranAdvisor = function(restaurants){
 
 //method to count the number of restaurants
 ScranAdvisor.prototype.totalRestaurants = function () {
-    return this.restaurants.length
+    return this.restaurants.length;
 }
 
 // method to find the name of restaurant by name
