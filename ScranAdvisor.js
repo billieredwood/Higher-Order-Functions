@@ -11,7 +11,7 @@ ScranAdvisor.prototype.totalRestaurants = function () {
     return this.restaurants.length;
 }
 
-// method to find the name of restaurant by name
+// method to find the name of restaurant
 ScranAdvisor.prototype.findByName = function (name) {
     return this.restaurants.find(restaurant => restaurant.name === name);
 }
