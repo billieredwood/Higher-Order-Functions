@@ -17,8 +17,8 @@ ScranAdvisor.prototype.findByName = function (name) {
 }
 
 // can find the name of all restaurants
-ScranAdvisor.prototype.findAllNames = function (names) {
-    return this.restaurants.name;
+ScranAdvisor.prototype.findAllNames = function (name) {
+    return this.restaurants.map(restaurant => restaurant.name);
 }
 
 //can find all restaurants from Glasgow
