@@ -23,7 +23,7 @@ ScranAdvisor.prototype.findAllNames = function (name) {
 
 //method to find all restaurants from Glasgow
 ScranAdvisor.prototype.findRestaurantByCity = function (town) {
-    return this.restaurants.filter(restaurant => restaurant.location.town === "Glasgow");
+    return this.restaurants.filter(restaurant => restaurant.location.town === town);
 }
 
 
